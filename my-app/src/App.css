@@ -1,0 +1,64 @@
+h1 {
+  color: blue;
+}
+
+.imageProfile {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.line {
+  border-bottom: black 4px solid;
+  margin: 10px 0px;
+}
+
+.headerInfo,
+.about,
+.skills,
+.projects,
+.education,
+.languages {
+  display: grid;
+  grid-template-columns: 200px 4fr;
+  align-items: center;
+}
+
+.about,
+.skills,
+.projects,
+.education,
+.languages  {
+  align-items: start;
+}
+
+.App {
+  max-width: 900px;
+  margin: 10px auto;
+  align-items: center;
+}
+
+.rightBlock {
+  margin-left: 10px;
+}
+
+.title {
+  margin-top: 10px;
+  border-top: black solid 2px;
+  width: 40px;
+  font-weight: bold;
+}
+
+.skill {
+  background: orange;
+  border-radius: 15px;
+  padding: 2px 10px;
+  margin-right: 6px;
+  border: black solid 1px;
+}
+
+.skillContainer {
+  display: flex;
+  flex-wrap: wrap;
+  grid-row-gap: 5px;
+}
